@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    margin: auto;
+    background-image: linear-gradient( to bottom, #042D41, #7cd4c1);
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: linear-gradient(to top, #042940, #005C53, #147e67);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    color: white;
+}
+header > h1{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow:2px 2px 6px #00000075;;
+
+}
+header > p{ 
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px 2px 6px #00000075;
+}
+header > nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+header > nav > a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+main{
+    width: 840px;
+    background-color: white;
+    margin: auto auto 20px auto;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 2px 2px 6px #00000075;
+}
+main > section > article#principal{
+    padding: 5px 20px;
+}
+main> section > article > h2{
+    color: #042940;
+    font-family: 'droid', sans-serif;
+}
+main > section > article > p{
+    text-indent: 20px;
+    margin: 8px;
+
+}
+main > section > article > p > a{
+    color: #147e67;
+    text-decoration: none;
+    font-weight: bold;
+}
+main > section > article > p >a:hover{
+    text-decoration: underline;
+    color: #147e67;
+}
+main > section > article > h3{
+    background-image: linear-gradient(to right,#04401d, #042940, #2886c0, #9dd3f5, #ffffff9a);
+    color: white;
+    font-family: 'droid', sans-serif;
+    text-indent: 10px;
+    font-weight: lighter;
+}
+main > section > article > picture > img.displayed{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main > section > article > aside#video{
+    margin: auto;
+}
+main > section > article > aside#video > div{
+    background-color: #042940;
+    margin: auto;
+    padding: 30px;
+}
+main > section > article > aside#second{
+    border-radius: 20px;
+    background-color: #7cd4c1;
+    text-indent: 20px;
+    box-shadow: 2px 2px 6px #00000075;
+}
+main > section > article > aside#second > h3{
+    font-weight: bold;
+    background-color: #042D41;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px;
+}
+main > section > article > aside#second > p{
+    padding: 5px;
+    margin: 5px;
+}
+main > section > article > aside#second > ul > abbr{
+    color: black;
+    text-decoration: none;
+}
+main > section > article > aside#second > p >a{
+    color: #04401d;
+    text-decoration: none;
+    font-weight: bold;
+}
+main > section > article > aside#second > p >a:hover{
+    color: #04401d;
+    text-decoration: underline;
+}
+main > section > article > aside > p{
+    text-indent: 20px;
+}
+footer{
+    background-color: #042940;
+    color: white;
+    font-weight: lighter;
+    margin: auto;
+    padding: 10px;
+}
+footer > p{
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+}
