@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'open sans' ;
+    src: url('fonte/open\ sans/') format('truetype');
+}
+@font-face {
+    font-family: 'better';
+    src: url('fonte/better/Better\ Yesterday.otf') format('opentype');
+}
+
+body{
+    margin: 0px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+header > h1{
+    font-family: 'better', sans-serif;
+    font-size: 6em;
+    font-weight: lighter;
+    margin: 5px;
+}
+header > p{
+    font: normal 300 0.8em 'open sans', sans-serif;
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
