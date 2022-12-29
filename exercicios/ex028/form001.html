@@ -13,13 +13,17 @@
 </head>
 <body>
     <h1>Meu Primeiro Formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="get" autocomplete="off"> <!--Método GET, as informações ficam visíveis na URL-->
         <p><label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
+    <form action="" method="post"> <!--Método POST, as informações não ficam visíveis na URL, mas também não ficam protegidas.-->
+
+
+    </form> 
     
 </body>
 </html>
