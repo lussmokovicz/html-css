@@ -9,8 +9,25 @@ Desktop: 992px até 1200px
 Telas Grandes: acima de 1200px
 */
 @media print{
+    body{
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário*/
+    }
+    main{
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    main h1{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+    }
 
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
 }
+
 @media screen and (min-width:768px) and (max-width:992px) {
     body{
         background-image: url(../imagens/back-tablet.jpg);
