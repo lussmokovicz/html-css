@@ -10,9 +10,12 @@ Telas Grandes: acima de 1200px
 */
 
 @media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom, #e1e7b0,  #fcd4d4);
+    }
     section#login{
         width: 600px;
-        height: 600px;
+        height: 300px;
 
     }
     section#login > div#color{
@@ -23,12 +26,16 @@ Telas Grandes: acima de 1200px
     }
     section#login > div#form{
         float:right;
-        height: 100%;
         width:70%;
     }
-    section#login > div{
-        float: right;
-        height: 100%;
-        width: 70%;
+}
+@media screen and (min-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom, #e1e7b0,  #fcd4d4);
     }
+    section#login{
+        width: 950px;
+        text-align: center;
+    }
+    
 }
