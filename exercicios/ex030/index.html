@@ -12,8 +12,18 @@
     <main>
         <section id="login">
             <div id="color"></div>
-            <div id="form"><h1>Login</h1></div>
-            <form action="login.php" method="post">
+            <div id="form"><h1>LOGIN</h1></div>
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <label for="iuser">User</label>
+                    <input type="email" name="user" id="iuser" required placeholder="Email Address*" autocomplete="email">
+                </div>
+                <div class="campo"> 
+                    <label for="ipass">Password</label>
+                    <input type="password" name="pass" id="ipass" required minlength="8" maxlength="16" placeholder="Password*" autocomplete="current-password">
+                </div>
+                <input type="submit" value="Submit">
+                <a href="#">Forgot password</a>
             </form>
 
         </section>

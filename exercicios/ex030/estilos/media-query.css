@@ -34,8 +34,8 @@ Telas Grandes: acima de 1200px
         background-image: linear-gradient(to bottom, #e1e7b0,  #fcd4d4);
     }
     section#login{
-        width: 950px;
-        text-align: center;
+        width: 400px;
+        
     }
     
 }
