@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/*Estilo para Telas*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+body{
+    background-color: #c5bebe;
+}
+header{
+    background-color: black;
+    box-shadow: 2px 2px 6px #0000007a;
+}
+h1, menu > ul > li{
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 4em;
+    font-weight: lighter;
+}
+menu li{
+    display: inline-block;
+}
+menu li:hover{
+    background-color: gray;
+    border-radius: 5px 5px 0px 0px;
+    transition-duration: 0.5s;
+}
+main{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 2px 2px 6px #0000007a;
+}
+main h2{
+    padding: 10px;
+}
+main p{
+    text-indent: 10px;
+    line-height: 1.5em;
+    padding: 8px;
+}
+footer{
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
