@@ -51,6 +51,8 @@ menu a{
 }
 menu a:hover{
     background-color: #fac2ce;
+    border-radius: 5px 5px 0px 0px;
+    transition-duration: 0.5s;
 }
 main{
     width: 90vw;
