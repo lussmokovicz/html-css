@@ -20,6 +20,16 @@ Telas Grandes: acima de 1200px
     menu > ul > li{
         display: inline-block;
     }
+    menu a{
+        background-color: black;
+        color: white;
+    }
+    menu a:hover{
+        background-color: #fac2ce;
+        color: black;
+        border-radius: 5px 5px 0px 0px;
+        transition-duration: 0.5s;
+    }
     main{
         width: 768px;
     }
