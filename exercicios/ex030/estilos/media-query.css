@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*Todas as demais mídias*/
+
+/*Typical Device Breakpoints
+Telas Pequenas: até 600px (já foi feito no mobile first)
+Celular: 600px até 768px (já foi feito no mobile first)
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas Grandes: acima de 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    section#login{
+        width: 600px;
+        height: 600px;
+
+    }
+    section#login > div#color{
+        float:left;
+        height: 100%;
+        width:30%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    section#login > div#form{
+        float:right;
+        height: 100%;
+        width:70%;
+    }
+    section#login > div{
+        float: right;
+        height: 100%;
+        width: 70%;
+    }
+}
