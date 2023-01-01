@@ -40,7 +40,7 @@ div h1, div.hour h3{
 }
 @media screen and (min-width:992px) {
     main{
-        font-size: 2em;
+        font-size: 3em;
         transition: font-size 3s ease;
     }
     
