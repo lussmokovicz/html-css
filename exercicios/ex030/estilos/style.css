@@ -72,9 +72,10 @@ form input[type=email]:active, input[type=password]:active{
     border: transparent;
 }
 form input[type=email]:hover, input[type=password]:hover{
-    background-color:#cae7f5;
+    background-color:#d8f1fd;
     transition-duration: 0.5s;
     border-radius: 5px;
+    border-bottom: 2px solid black;
 }
 form input:focus{
     border: none;
