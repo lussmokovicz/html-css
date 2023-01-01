@@ -32,7 +32,7 @@ section#login{
     box-shadow: 0px 0px 10px #00000049;
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease; /*Deixa a transição mais suave*/
-    
+
 }
 section > div#color{
     display: block;
