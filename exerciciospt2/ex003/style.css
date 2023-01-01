@@ -16,7 +16,7 @@ main{
     font-family: 'Cormorant Garamond', serif;
     color: white;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     text-transform: uppercase;
     height: 100vh;
@@ -34,13 +34,13 @@ div h1, div.hour h3{
 
 @media screen and (min-width:768px) {
     main{
-        font-size: 2em;
+        font-size: 1.5em;
         transition: font-size 3s ease;
     }
 }
 @media screen and (min-width:992px) {
     main{
-        font-size: 3em;
+        font-size: 2em;
         transition: font-size 3s ease;
     }
     
