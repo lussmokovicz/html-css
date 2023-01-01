@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #B5B6BA 0%, 10.688836127519608%, #D7BBAF 21.377672255039215%, 31.175772100687027%, #C0BBB8 40.97387194633484%, 46.320268511772156%, #859CAE 51.66666507720947%, 63.055554032325745%, #647589 74.44444298744202%, 87.22222149372101%, #211A21 100%);
+}
+main{
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+div h1, div h3{
+    background-image: linear-gradient(to right, #fdfcfb, #f6f1ed, #f0e7df, #e9dcd1, #e3d2c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
