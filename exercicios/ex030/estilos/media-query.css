@@ -16,7 +16,6 @@ Telas Grandes: acima de 1200px
     section#login{
         width: 600px;
         height: 300px;
-
     }
     section#login > div#color{
         float:left;
@@ -24,10 +23,16 @@ Telas Grandes: acima de 1200px
         width:10%;
         border-radius: 20px 0px 0px 20px;
     }
-    section#login > div#form{
-        float:right;
+    section#login > div#form{  
         width:90%;
     }
+    section > div.grad{
+        float:left;
+        height: 100%;
+        width:1%;
+        background-image: linear-gradient(to top, #71c5ee, #53a7d8, #3889c1, #1e6caa, #025091);
+    }
+    
 }
 @media screen and (min-width:992px) {
     body{
