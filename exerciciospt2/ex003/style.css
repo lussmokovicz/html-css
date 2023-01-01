@@ -22,13 +22,26 @@ main{
     height: 100vh;
     width: 100vw;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 }
-div h1, div h3{
+div h1, div.hour h3{
     background-image: linear-gradient(to right, #fdfcfb, #f6f1ed, #f0e7df, #e9dcd1, #e3d2c4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+@media screen and (min-width:768px) {
+    main{
+        font-size: 2em;
+        transition: font-size 3s ease;
+    }
+}
+@media screen and (min-width:992px) {
+    main{
+        font-size: 3em;
+        transition: font-size 3s ease;
+    }
+    
 }
