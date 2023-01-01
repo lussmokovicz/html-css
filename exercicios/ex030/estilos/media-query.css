@@ -21,12 +21,12 @@ Telas Grandes: acima de 1200px
     section#login > div#color{
         float:left;
         height: 100%;
-        width:30%;
+        width:10%;
         border-radius: 20px 0px 0px 20px;
     }
     section#login > div#form{
         float:right;
-        width:70%;
+        width:90%;
 
     }
 }
