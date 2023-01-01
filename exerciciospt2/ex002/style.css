@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100vh;
+    width:100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    background-color: #0D0D0D;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+div h1{
+    background-image: linear-gradient(to right, #5e71fd, #8c6fff, #b26bff, #d665ff, #f75efd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
