@@ -1,0 +1,49 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: whitesmoke;
+}
+p{
+    padding: 10px;
+    margin: 10px;
+}
+.dotted{
+    border-style: dotted;
+    border-color: black;
+}
+.dashed{
+    border-style: dashed;
+    border-color: black;
+}
+.solid{
+    border-style: solid;
+    border-color: black;
+}
+.double{
+    border-style: solid;
+    border-color: black;
+}
+.groove{
+    border-style: groove;
+    border-color: purple;
+    border: 8px groove red;
+}
+.ridge{
+    border: 8px ridge rgb(108, 210, 250);
+}
+.inset{
+    border: 8px inset green;
+}
+.outset{
+    border: 8px outset yellow;
+}
+.none{
+    border-style: none;
+}
+.hidden{
+    border-style: hidden;
+}
