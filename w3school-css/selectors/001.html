@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors and CSS family elements</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <p>A paragraph inside a div</p>
+        </div>
+        <div class="text">
+            <p>A paragraph inside a div with a class.</p>
+            <p class="color">A paragraph with a class inside a div with a class.</p>
+        </div>
+        <section>
+            <p>A paragraph inside a section.</p>
+            <p>A paragraph inside a section.</p>
+            <p>A paragraph inside a section.</p>
+            <div>
+                <p>A paragraph inside a div, inside a section.</p>
+            </div>
+            <p>A paragraph inside a section.</p>
+        </section>
+        <section class="adjacent-sibling">
+            <h3>Adjacent Sibling selector</h3>
+            <p>A paragraph inside a section with a class.</p>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+        <section class="adjacent-sibling-explained">
+            <h3>Adjacent Sibling selector better explained</h3>
+            <p>A paragraph inside a section with a class.</p>
+            <div class="box"></div>
+            <div class="box"></div>
+            <a href="#">Not a box</a>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+        <section class="general-sibling">
+            <h3>General Sibling selector</h3>
+            <p>A paragraph inside a section with a class.</p>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+        <section class="general-sibling">
+            <h3>General Sibling selector better explained</h3>
+            <p>A paragraph inside a section with a class.</p>
+            <div class="box"></div>
+            <div class="box"></div>
+            <a href="#">Not a box</a>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+    </main>
+    
+</body>
+</html>
