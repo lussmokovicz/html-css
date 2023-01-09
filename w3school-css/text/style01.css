@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+h1, p, div{
+    padding: 10px;
+    margin: 10px;
+}
+div{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+h1{
+    color: purple;
+}
+p{
+    background-color: lightgoldenrodyellow;
+    color: orangered;
+}
+div > p{
+    background-color: inherit;
+    color: black;
+}
+.background-color p{
+    background-color: #000038;
+    color: white;
+}
+.text-align p{
+    text-align: center;
+}
+.text.align.last p{ /*Não deu certo*/
+    text-align: justify;
+    text-align-last: right;
+}
+p[class*="lt"], p[class*="rt"]{
+    background-color: #000038;
+    border-radius: 20px;
+    color: yellow;
+}
+.ltr-normal{
+    direction: ltr;
+    unicode-bidi: normal;
+}
+ .ltr-bidioverride{
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+.ltr-isolate{
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+.ltr-isolate-override{
+    direction: ltr;
+    unicode-bidi: isolate-override;
+}
+.ltr-plaintext{
+    direction: ltr;
+    unicode-bidi: plaintext;
+}
+.rtl-normal{
+    direction: rtl;
+    unicode-bidi: normal;
+}
+.rtl-bidioverride{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.rtl-isolate{
+    direction: rtl;
+    unicode-bidi: isolate;
+}
+.rtl-isolate-override{
+    direction: rtl;
+    unicode-bidi: isolate-override;
+}
+.rtl-plaintext{
+    direction: rtl;
+    unicode-bidi: plaintext;
+}
