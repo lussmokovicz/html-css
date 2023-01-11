@@ -13,7 +13,7 @@ html, body{
 main{
     margin-inline: auto;
     padding: 10px 0px;
-    width: min(95%, 70rem);
+    width: 100vw;
     display: grid;
     gap: 1.5em;
     grid-template-columns: repeat(4, 1fr);
@@ -26,10 +26,12 @@ div{
     border-radius: 10px;
 }
 h1, h4{
+    display: none;
     padding: 8px;
     font-weight: lighter;
 }
 p{
+    display: none;
     font-size: 14px;
     line-height: 1.5em;
     letter-spacing: 1px ;
